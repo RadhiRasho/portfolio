@@ -75,7 +75,7 @@ function TechnologyCategory({ name, icons }: TechnologyCategoryProps) {
 			<div className="grid grid-cols-1 gap-4 md:grid-cols-2">
 				{icons.map((iconSet, index) => (
 					<motion.div key={index} variants={itemVariants}>
-						<Card className="w-full flex-shrink-0 overflow-hidden bg-transparent p-0 transition-all hover:scale-[102%] hover:shadow-md">
+						<Card className="w-full shrink-0 overflow-hidden bg-transparent p-0 transition-all hover:scale-[102%] hover:shadow-md">
 							<CardContent className="flex w-full items-center justify-between p-2">
 								{iconSet.split(",").map((icon) => (
 									<div
